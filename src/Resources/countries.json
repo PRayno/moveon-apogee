@@ -1,0 +1,1238 @@
+{
+  "1": {
+    "moveon_id": 1,
+    "moveon_name": "Afghanistan",
+    "apogee_code": "212",
+    "apogee_name": "AFGHANISTAN"
+  },
+  "202": {
+    "moveon_id": 202,
+    "moveon_name": "Afrique du Sud",
+    "apogee_code": "303",
+    "apogee_name": "AFRIQUE DU SUD"
+  },
+  "2": {
+    "moveon_id": 2,
+    "moveon_name": "Albanie",
+    "apogee_code": "125",
+    "apogee_name": "ALBANIE"
+  },
+  "3": {
+    "moveon_id": 3,
+    "moveon_name": "Algérie",
+    "apogee_code": "352",
+    "apogee_name": "ALGERIE"
+  },
+  "80": {
+    "moveon_id": 80,
+    "moveon_name": "Allemagne",
+    "apogee_code": "109",
+    "apogee_name": "ALLEMAGNE"
+  },
+  "5": {
+    "moveon_id": 5,
+    "moveon_name": "Andorre",
+    "apogee_code": "130",
+    "apogee_name": "ANDORRE"
+  },
+  "6": {
+    "moveon_id": 6,
+    "moveon_name": "Angola",
+    "apogee_code": "395",
+    "apogee_name": "ANGOLA"
+  },
+  "8": {
+    "moveon_id": 8,
+    "moveon_name": "Antarctique",
+    "apogee_code": "990",
+    "apogee_name": "AUTRES PAYS"
+  },
+  "9": {
+    "moveon_id": 9,
+    "moveon_name": "Antigua et Barbuda",
+    "apogee_code": "441",
+    "apogee_name": "ANTIGUA ET BARBUDA"
+  },
+  "192": {
+    "moveon_id": 192,
+    "moveon_name": "Arabie Saoudite",
+    "apogee_code": "201",
+    "apogee_name": "ARABIE SAOUDITE"
+  },
+  "10": {
+    "moveon_id": 10,
+    "moveon_name": "Argentine",
+    "apogee_code": "415",
+    "apogee_name": "ARGENTINE"
+  },
+  "11": {
+    "moveon_id": 11,
+    "moveon_name": "Arménie",
+    "apogee_code": "252",
+    "apogee_name": "ARMENIE"
+  },
+  "13": {
+    "moveon_id": 13,
+    "moveon_name": "Australie",
+    "apogee_code": "501",
+    "apogee_name": "AUSTRALIE"
+  },
+  "14": {
+    "moveon_id": 14,
+    "moveon_name": "Autriche",
+    "apogee_code": "110",
+    "apogee_name": "AUTRICHE"
+  },
+  "15": {
+    "moveon_id": 15,
+    "moveon_name": "Azerbaïdjan",
+    "apogee_code": "253",
+    "apogee_name": "AZERBAIDJAN"
+  },
+  "16": {
+    "moveon_id": 16,
+    "moveon_name": "Bahamas",
+    "apogee_code": "436",
+    "apogee_name": "BAHAMAS"
+  },
+  "17": {
+    "moveon_id": 17,
+    "moveon_name": "Bahreïn",
+    "apogee_code": "249",
+    "apogee_name": "BAHREIN"
+  },
+  "18": {
+    "moveon_id": 18,
+    "moveon_name": "Bangladesh",
+    "apogee_code": "246",
+    "apogee_name": "BANGLADESH"
+  },
+  "19": {
+    "moveon_id": 19,
+    "moveon_name": "Barbade",
+    "apogee_code": "434",
+    "apogee_name": "BARBADE"
+  },
+  "21": {
+    "moveon_id": 21,
+    "moveon_name": "Belgique",
+    "apogee_code": "131",
+    "apogee_name": "BELGIQUE"
+  },
+  "22": {
+    "moveon_id": 22,
+    "moveon_name": "Belize",
+    "apogee_code": "429",
+    "apogee_name": "BELIZE"
+  },
+  "23": {
+    "moveon_id": 23,
+    "moveon_name": "Bénin",
+    "apogee_code": "327",
+    "apogee_name": "BENIN"
+  },
+  "25": {
+    "moveon_id": 25,
+    "moveon_name": "Bhoutan",
+    "apogee_code": "214",
+    "apogee_name": "BHOUTAN"
+  },
+  "20": {
+    "moveon_id": 20,
+    "moveon_name": "Biélorussie",
+    "apogee_code": "148",
+    "apogee_name": "BIELORUSSIE"
+  },
+  "26": {
+    "moveon_id": 26,
+    "moveon_name": "Bolivie",
+    "apogee_code": "418",
+    "apogee_name": "BOLIVIE"
+  },
+  "27": {
+    "moveon_id": 27,
+    "moveon_name": "Bosnie-Herzégovine",
+    "apogee_code": "118",
+    "apogee_name": "BOSNIE HERZEGOVINE"
+  },
+  "28": {
+    "moveon_id": 28,
+    "moveon_name": "Botswana",
+    "apogee_code": "347",
+    "apogee_name": "BOTSWANA"
+  },
+  "30": {
+    "moveon_id": 30,
+    "moveon_name": "Brésil",
+    "apogee_code": "416",
+    "apogee_name": "BRESIL"
+  },
+  "32": {
+    "moveon_id": 32,
+    "moveon_name": "Brunéi Darussalam",
+    "apogee_code": "225",
+    "apogee_name": "BRUNEI"
+  },
+  "33": {
+    "moveon_id": 33,
+    "moveon_name": "Bulgarie",
+    "apogee_code": "111",
+    "apogee_name": "BULGARIE"
+  },
+  "34": {
+    "moveon_id": 34,
+    "moveon_name": "Burkina Faso",
+    "apogee_code": "331",
+    "apogee_name": "BURKINA FASO"
+  },
+  "35": {
+    "moveon_id": 35,
+    "moveon_name": "Burundi",
+    "apogee_code": "321",
+    "apogee_name": "BURUNDI"
+  },
+  "36": {
+    "moveon_id": 36,
+    "moveon_name": "Cambodge",
+    "apogee_code": "234",
+    "apogee_name": "CAMBODGE"
+  },
+  "37": {
+    "moveon_id": 37,
+    "moveon_name": "Cameroun",
+    "apogee_code": "322",
+    "apogee_name": "CAMEROUN"
+  },
+  "38": {
+    "moveon_id": 38,
+    "moveon_name": "Canada",
+    "apogee_code": "401",
+    "apogee_name": "CANADA"
+  },
+  "39": {
+    "moveon_id": 39,
+    "moveon_name": "Cap-Vert",
+    "apogee_code": "396",
+    "apogee_name": "CAP VERT"
+  },
+  "41": {
+    "moveon_id": 41,
+    "moveon_name": "Centrafricaine, République",
+    "apogee_code": "323",
+    "apogee_name": "CENTRAFRIQUE"
+  },
+  "43": {
+    "moveon_id": 43,
+    "moveon_name": "Chili",
+    "apogee_code": "417",
+    "apogee_name": "CHILI"
+  },
+  "44": {
+    "moveon_id": 44,
+    "moveon_name": "Chine",
+    "apogee_code": "216",
+    "apogee_name": "CHINE"
+  },
+  "56": {
+    "moveon_id": 56,
+    "moveon_name": "Chypre",
+    "apogee_code": "254",
+    "apogee_name": "CHYPRE"
+  },
+  "47": {
+    "moveon_id": 47,
+    "moveon_name": "Colombie",
+    "apogee_code": "419",
+    "apogee_name": "COLOMBIE"
+  },
+  "48": {
+    "moveon_id": 48,
+    "moveon_name": "Comores",
+    "apogee_code": "397",
+    "apogee_name": "COMORES"
+  },
+  "49": {
+    "moveon_id": 49,
+    "moveon_name": "Congo",
+    "apogee_code": "324",
+    "apogee_name": "CONGO"
+  },
+  "50": {
+    "moveon_id": 50,
+    "moveon_name": "Congo, La Rép. démocratique Du",
+    "apogee_code": "312",
+    "apogee_name": "REPUBLIQUE DEMOCRATIQUE CONGO"
+  },
+  "51": {
+    "moveon_id": 51,
+    "moveon_name": "Cook, îles",
+    "apogee_code": "990",
+    "apogee_name": "AUTRES PAYS"
+  },
+  "114": {
+    "moveon_id": 114,
+    "moveon_name": "Corée, Rép. pop. dém.",
+    "apogee_code": "238",
+    "apogee_name": "COREE DU NORD"
+  },
+  "115": {
+    "moveon_id": 115,
+    "moveon_name": "Corée, République de",
+    "apogee_code": "239",
+    "apogee_name": "COREE DU SUD"
+  },
+  "52": {
+    "moveon_id": 52,
+    "moveon_name": "Costa Rica",
+    "apogee_code": "406",
+    "apogee_name": "COSTA RICA"
+  },
+  "53": {
+    "moveon_id": 53,
+    "moveon_name": "Côte d'Ivoire",
+    "apogee_code": "326",
+    "apogee_name": "COTE D IVOIRE"
+  },
+  "54": {
+    "moveon_id": 54,
+    "moveon_name": "Croatie",
+    "apogee_code": "119",
+    "apogee_name": "CROATIE"
+  },
+  "55": {
+    "moveon_id": 55,
+    "moveon_name": "Cuba",
+    "apogee_code": "407",
+    "apogee_name": "CUBA"
+  },
+  "58": {
+    "moveon_id": 58,
+    "moveon_name": "Danemark",
+    "apogee_code": "101",
+    "apogee_name": "DANEMARK"
+  },
+  "59": {
+    "moveon_id": 59,
+    "moveon_name": "Djibouti",
+    "apogee_code": "399",
+    "apogee_name": "DJIBOUTI"
+  },
+  "61": {
+    "moveon_id": 61,
+    "moveon_name": "Dominicaine, République",
+    "apogee_code": "408",
+    "apogee_name": "REPUBLIQUE DOMINICAINE"
+  },
+  "60": {
+    "moveon_id": 60,
+    "moveon_name": "Dominique",
+    "apogee_code": "438",
+    "apogee_name": "DOMINIQUE"
+  },
+  "63": {
+    "moveon_id": 63,
+    "moveon_name": "Égypte",
+    "apogee_code": "301",
+    "apogee_name": "EGYPTE"
+  },
+  "64": {
+    "moveon_id": 64,
+    "moveon_name": "El Salvador",
+    "apogee_code": "414",
+    "apogee_name": "EL SALVADOR"
+  },
+  "231": {
+    "moveon_id": 231,
+    "moveon_name": "Émirats Arabes Unis",
+    "apogee_code": "247",
+    "apogee_name": "EMIRATS ARABES UNIS"
+  },
+  "62": {
+    "moveon_id": 62,
+    "moveon_name": "Équateur",
+    "apogee_code": "420",
+    "apogee_name": "EQUATEUR"
+  },
+  "66": {
+    "moveon_id": 66,
+    "moveon_name": "Erythrée",
+    "apogee_code": "317",
+    "apogee_name": "ERYTHREE"
+  },
+  "204": {
+    "moveon_id": 204,
+    "moveon_name": "Espagne",
+    "apogee_code": "134",
+    "apogee_name": "ESPAGNE"
+  },
+  "67": {
+    "moveon_id": 67,
+    "moveon_name": "Estonie",
+    "apogee_code": "106",
+    "apogee_name": "ESTONIE"
+  },
+  "233": {
+    "moveon_id": 233,
+    "moveon_name": "États-Unis",
+    "apogee_code": "404",
+    "apogee_name": "ETATS UNIS"
+  },
+  "68": {
+    "moveon_id": 68,
+    "moveon_name": "Éthiopie",
+    "apogee_code": "315",
+    "apogee_name": "ETHIOPIE"
+  },
+  "70": {
+    "moveon_id": 70,
+    "moveon_name": "Féroé, îles",
+    "apogee_code": "101",
+    "apogee_name": "DANEMARK"
+  },
+  "71": {
+    "moveon_id": 71,
+    "moveon_name": "Fidji",
+    "apogee_code": "508",
+    "apogee_name": "FIDJI"
+  },
+  "72": {
+    "moveon_id": 72,
+    "moveon_name": "Finlande",
+    "apogee_code": "105",
+    "apogee_name": "FINLANDE"
+  },
+  "73": {
+    "moveon_id": 73,
+    "moveon_name": "France",
+    "apogee_code": "100",
+    "apogee_name": "FRANCE"
+  },
+  "77": {
+    "moveon_id": 77,
+    "moveon_name": "Gabon",
+    "apogee_code": "328",
+    "apogee_name": "GABON"
+  },
+  "78": {
+    "moveon_id": 78,
+    "moveon_name": "Gambie",
+    "apogee_code": "304",
+    "apogee_name": "GAMBIE"
+  },
+  "79": {
+    "moveon_id": 79,
+    "moveon_name": "Géorgie",
+    "apogee_code": "255",
+    "apogee_name": "GEORGIE"
+  },
+  "81": {
+    "moveon_id": 81,
+    "moveon_name": "Ghana",
+    "apogee_code": "329",
+    "apogee_name": "GHANA"
+  },
+  "82": {
+    "moveon_id": 82,
+    "moveon_name": "Gibraltar",
+    "apogee_code": "133",
+    "apogee_name": "TERRITOIRE DU ROYAUME UNI :  GIBRALTAR"
+  },
+  "83": {
+    "moveon_id": 83,
+    "moveon_name": "Grèce",
+    "apogee_code": "126",
+    "apogee_name": "GRECE"
+  },
+  "85": {
+    "moveon_id": 85,
+    "moveon_name": "Grenade",
+    "apogee_code": "435",
+    "apogee_name": "GRENADE ETGRENADINES"
+  },
+  "84": {
+    "moveon_id": 84,
+    "moveon_name": "Groenland",
+    "apogee_code": "430",
+    "apogee_name": "TERRITOIRE DU DANEMARK : GROENLAND"
+  },
+  "88": {
+    "moveon_id": 88,
+    "moveon_name": "Guatemala",
+    "apogee_code": "409",
+    "apogee_name": "GUATEMALA"
+  },
+  "90": {
+    "moveon_id": 90,
+    "moveon_name": "Guinée",
+    "apogee_code": "330",
+    "apogee_name": "GUINEE"
+  },
+  "65": {
+    "moveon_id": 65,
+    "moveon_name": "Guinée Équatoriale",
+    "apogee_code": "314",
+    "apogee_name": "GUINEE EQUATORIALE"
+  },
+  "91": {
+    "moveon_id": 91,
+    "moveon_name": "Guinée-Bissau",
+    "apogee_code": "392",
+    "apogee_name": "GUINEE BISSAU"
+  },
+  "92": {
+    "moveon_id": 92,
+    "moveon_name": "Guyana",
+    "apogee_code": "428",
+    "apogee_name": "GUYANE"
+  },
+  "93": {
+    "moveon_id": 93,
+    "moveon_name": "Haïti",
+    "apogee_code": "410",
+    "apogee_name": "HAITI"
+  },
+  "95": {
+    "moveon_id": 95,
+    "moveon_name": "Honduras",
+    "apogee_code": "411",
+    "apogee_name": "HONDURAS"
+  },
+  "96": {
+    "moveon_id": 96,
+    "moveon_name": "Hong-Kong",
+    "apogee_code": "216",
+    "apogee_name": "CHINE"
+  },
+  "97": {
+    "moveon_id": 97,
+    "moveon_name": "Hongrie",
+    "apogee_code": "112",
+    "apogee_name": "HONGRIE"
+  },
+  "99": {
+    "moveon_id": 99,
+    "moveon_name": "Inde",
+    "apogee_code": "223",
+    "apogee_name": "INDE"
+  },
+  "100": {
+    "moveon_id": 100,
+    "moveon_name": "Indonésie",
+    "apogee_code": "231",
+    "apogee_name": "INDONESIE"
+  },
+  "102": {
+    "moveon_id": 102,
+    "moveon_name": "Irak",
+    "apogee_code": "203",
+    "apogee_name": "IRAK"
+  },
+  "101": {
+    "moveon_id": 101,
+    "moveon_name": "Iran, République islamique d'",
+    "apogee_code": "204",
+    "apogee_name": "IRAN"
+  },
+  "103": {
+    "moveon_id": 103,
+    "moveon_name": "Irlande",
+    "apogee_code": "136",
+    "apogee_name": "IRLANDE"
+  },
+  "98": {
+    "moveon_id": 98,
+    "moveon_name": "Islande",
+    "apogee_code": "102",
+    "apogee_name": "ISLANDE"
+  },
+  "105": {
+    "moveon_id": 105,
+    "moveon_name": "Israël",
+    "apogee_code": "207",
+    "apogee_name": "ISRAEL"
+  },
+  "106": {
+    "moveon_id": 106,
+    "moveon_name": "Italie",
+    "apogee_code": "127",
+    "apogee_name": "ITALIE"
+  },
+  "107": {
+    "moveon_id": 107,
+    "moveon_name": "Jamaïque",
+    "apogee_code": "426",
+    "apogee_name": "JAMAIQUE"
+  },
+  "108": {
+    "moveon_id": 108,
+    "moveon_name": "Japon",
+    "apogee_code": "217",
+    "apogee_name": "JAPON"
+  },
+  "110": {
+    "moveon_id": 110,
+    "moveon_name": "Jordanie",
+    "apogee_code": "222",
+    "apogee_name": "JORDANIE"
+  },
+  "111": {
+    "moveon_id": 111,
+    "moveon_name": "Kazakhstan",
+    "apogee_code": "256",
+    "apogee_name": "KAZAKHSTAN"
+  },
+  "112": {
+    "moveon_id": 112,
+    "moveon_name": "Kenya",
+    "apogee_code": "332",
+    "apogee_name": "KENYA"
+  },
+  "118": {
+    "moveon_id": 118,
+    "moveon_name": "Kirghizistan",
+    "apogee_code": "257",
+    "apogee_name": "KIRGHIZISTAN"
+  },
+  "113": {
+    "moveon_id": 113,
+    "moveon_name": "Kiribati",
+    "apogee_code": "513",
+    "apogee_name": "KIRIBATI"
+  },
+  "116": {
+    "moveon_id": 116,
+    "moveon_name": "Kosovo",
+    "apogee_code": "157",
+    "apogee_name": "KOSOVO"
+  },
+  "117": {
+    "moveon_id": 117,
+    "moveon_name": "Koweït",
+    "apogee_code": "240",
+    "apogee_name": "KOWEIT"
+  },
+  "119": {
+    "moveon_id": 119,
+    "moveon_name": "Lao, Rép. démocratique pop.",
+    "apogee_code": "241",
+    "apogee_name": "LAOS"
+  },
+  "122": {
+    "moveon_id": 122,
+    "moveon_name": "Lesotho",
+    "apogee_code": "348",
+    "apogee_name": "LESOTHO"
+  },
+  "120": {
+    "moveon_id": 120,
+    "moveon_name": "Lettonie",
+    "apogee_code": "107",
+    "apogee_name": "LETTONIE"
+  },
+  "121": {
+    "moveon_id": 121,
+    "moveon_name": "Liban",
+    "apogee_code": "205",
+    "apogee_name": "LIBAN"
+  },
+  "123": {
+    "moveon_id": 123,
+    "moveon_name": "Liberia",
+    "apogee_code": "302",
+    "apogee_name": "LIBERIA"
+  },
+  "124": {
+    "moveon_id": 124,
+    "moveon_name": "Libye",
+    "apogee_code": "316",
+    "apogee_name": "LIBYE"
+  },
+  "125": {
+    "moveon_id": 125,
+    "moveon_name": "Liechtenstein",
+    "apogee_code": "113",
+    "apogee_name": "LIECHTENSTEIN"
+  },
+  "126": {
+    "moveon_id": 126,
+    "moveon_name": "Lituanie",
+    "apogee_code": "108",
+    "apogee_name": "LITHUANIE"
+  },
+  "127": {
+    "moveon_id": 127,
+    "moveon_name": "Luxembourg",
+    "apogee_code": "137",
+    "apogee_name": "LUXEMBOURG"
+  },
+  "128": {
+    "moveon_id": 128,
+    "moveon_name": "Macao",
+    "apogee_code": "216",
+    "apogee_name": "CHINE"
+  },
+  "129": {
+    "moveon_id": 129,
+    "moveon_name": "Macédoine, Ancienne rép. yougoslave de",
+    "apogee_code": "156",
+    "apogee_name": "EX REPUBLIQUE YOUGOSLAVE DE MACEDOINE I"
+  },
+  "130": {
+    "moveon_id": 130,
+    "moveon_name": "Madagascar",
+    "apogee_code": "333",
+    "apogee_name": "MADAGASCAR"
+  },
+  "132": {
+    "moveon_id": 132,
+    "moveon_name": "Malaisie",
+    "apogee_code": "227",
+    "apogee_name": "MALAISIE"
+  },
+  "131": {
+    "moveon_id": 131,
+    "moveon_name": "Malawi",
+    "apogee_code": "334",
+    "apogee_name": "MALAWI"
+  },
+  "133": {
+    "moveon_id": 133,
+    "moveon_name": "Maldives",
+    "apogee_code": "229",
+    "apogee_name": "MALDIVES"
+  },
+  "134": {
+    "moveon_id": 134,
+    "moveon_name": "Mali",
+    "apogee_code": "335",
+    "apogee_name": "MALI"
+  },
+  "135": {
+    "moveon_id": 135,
+    "moveon_name": "Malte",
+    "apogee_code": "144",
+    "apogee_name": "MALTE"
+  },
+  "148": {
+    "moveon_id": 148,
+    "moveon_name": "Maroc",
+    "apogee_code": "350",
+    "apogee_name": "MAROC"
+  },
+  "136": {
+    "moveon_id": 136,
+    "moveon_name": "Marshall, îles",
+    "apogee_code": "515",
+    "apogee_name": "ILE MARSHALL"
+  },
+  "139": {
+    "moveon_id": 139,
+    "moveon_name": "Maurice",
+    "apogee_code": "390",
+    "apogee_name": "ILE MAURICE"
+  },
+  "138": {
+    "moveon_id": 138,
+    "moveon_name": "Mauritanie",
+    "apogee_code": "336",
+    "apogee_name": "MAURITANIE"
+  },
+  "141": {
+    "moveon_id": 141,
+    "moveon_name": "Mexique",
+    "apogee_code": "405",
+    "apogee_name": "MEXIQUE"
+  },
+  "142": {
+    "moveon_id": 142,
+    "moveon_name": "Micronésie",
+    "apogee_code": "516",
+    "apogee_name": "MICRONESIE"
+  },
+  "143": {
+    "moveon_id": 143,
+    "moveon_name": "Moldova, République de",
+    "apogee_code": "151",
+    "apogee_name": "MOLDAVIE"
+  },
+  "144": {
+    "moveon_id": 144,
+    "moveon_name": "Monaco",
+    "apogee_code": "138",
+    "apogee_name": "MONACO"
+  },
+  "145": {
+    "moveon_id": 145,
+    "moveon_name": "Mongolie",
+    "apogee_code": "242",
+    "apogee_name": "MONGOLIE"
+  },
+  "146": {
+    "moveon_id": 146,
+    "moveon_name": "Monténégro",
+    "apogee_code": "120",
+    "apogee_name": "MONTENEGRO"
+  },
+  "149": {
+    "moveon_id": 149,
+    "moveon_name": "Mozambique",
+    "apogee_code": "393",
+    "apogee_name": "MOZAMBIQUE"
+  },
+  "150": {
+    "moveon_id": 150,
+    "moveon_name": "Myanmar",
+    "apogee_code": "224",
+    "apogee_name": "BIRMANIE"
+  },
+  "151": {
+    "moveon_id": 151,
+    "moveon_name": "Namibie",
+    "apogee_code": "311",
+    "apogee_name": "NAMIBIE"
+  },
+  "152": {
+    "moveon_id": 152,
+    "moveon_name": "Nauru",
+    "apogee_code": "507",
+    "apogee_name": "NAURU"
+  },
+  "153": {
+    "moveon_id": 153,
+    "moveon_name": "Népal",
+    "apogee_code": "215",
+    "apogee_name": "NEPAL"
+  },
+  "158": {
+    "moveon_id": 158,
+    "moveon_name": "Nicaragua",
+    "apogee_code": "412",
+    "apogee_name": "NICARAGUA"
+  },
+  "159": {
+    "moveon_id": 159,
+    "moveon_name": "Niger",
+    "apogee_code": "337",
+    "apogee_name": "NIGER"
+  },
+  "160": {
+    "moveon_id": 160,
+    "moveon_name": "Nigeria",
+    "apogee_code": "338",
+    "apogee_name": "NIGERIA"
+  },
+  "161": {
+    "moveon_id": 161,
+    "moveon_name": "Niué",
+    "apogee_code": "990",
+    "apogee_name": "AUTRES PAYS"
+  },
+  "166": {
+    "moveon_id": 166,
+    "moveon_name": "Non spécifié",
+    "apogee_code": "999",
+    "apogee_name": "ETRANGER SANS AUTRE INDICATION"
+  },
+  "164": {
+    "moveon_id": 164,
+    "moveon_name": "Norvège",
+    "apogee_code": "103",
+    "apogee_name": "NORVEGE"
+  },
+  "157": {
+    "moveon_id": 157,
+    "moveon_name": "Nouvelle-Zélande",
+    "apogee_code": "502",
+    "apogee_name": "NOUVELLE ZELANDE"
+  },
+  "165": {
+    "moveon_id": 165,
+    "moveon_name": "Oman",
+    "apogee_code": "250",
+    "apogee_name": "OMAN"
+  },
+  "229": {
+    "moveon_id": 229,
+    "moveon_name": "Ouganda",
+    "apogee_code": "339",
+    "apogee_name": "OUGANDA"
+  },
+  "236": {
+    "moveon_id": 236,
+    "moveon_name": "Ouzbékistan",
+    "apogee_code": "258",
+    "apogee_name": "OUZBEKISTAN"
+  },
+  "167": {
+    "moveon_id": 167,
+    "moveon_name": "Pakistan",
+    "apogee_code": "213",
+    "apogee_name": "PAKISTAN"
+  },
+  "168": {
+    "moveon_id": 168,
+    "moveon_name": "Palaos",
+    "apogee_code": "517",
+    "apogee_name": "REPUBLIQUE DES ILES PALAOS"
+  },
+  "169": {
+    "moveon_id": 169,
+    "moveon_name": "Palestine",
+    "apogee_code": "261",
+    "apogee_name": "PALESTINE"
+  },
+  "170": {
+    "moveon_id": 170,
+    "moveon_name": "Panama",
+    "apogee_code": "413",
+    "apogee_name": "PANAMA"
+  },
+  "171": {
+    "moveon_id": 171,
+    "moveon_name": "Papouasie-Nouvelle-Guinée",
+    "apogee_code": "510",
+    "apogee_name": "PAPOUASIE Nouvelle Guinee"
+  },
+  "172": {
+    "moveon_id": 172,
+    "moveon_name": "Paraguay",
+    "apogee_code": "421",
+    "apogee_name": "PARAGUAY"
+  },
+  "154": {
+    "moveon_id": 154,
+    "moveon_name": "Pays-Bas",
+    "apogee_code": "135",
+    "apogee_name": "PAYS BAS"
+  },
+  "173": {
+    "moveon_id": 173,
+    "moveon_name": "Pérou",
+    "apogee_code": "422",
+    "apogee_name": "PEROU"
+  },
+  "174": {
+    "moveon_id": 174,
+    "moveon_name": "Philippines",
+    "apogee_code": "220",
+    "apogee_name": "PHILIPPINES"
+  },
+  "176": {
+    "moveon_id": 176,
+    "moveon_name": "Pologne",
+    "apogee_code": "122",
+    "apogee_name": "POLOGNE"
+  },
+  "177": {
+    "moveon_id": 177,
+    "moveon_name": "Portugal",
+    "apogee_code": "139",
+    "apogee_name": "PORTUGAL"
+  },
+  "179": {
+    "moveon_id": 179,
+    "moveon_name": "Qatar",
+    "apogee_code": "248",
+    "apogee_name": "QATAR"
+  },
+  "180": {
+    "moveon_id": 180,
+    "moveon_name": "Roumanie",
+    "apogee_code": "114",
+    "apogee_name": "ROUMANIE"
+  },
+  "232": {
+    "moveon_id": 232,
+    "moveon_name": "Royaume-Uni",
+    "apogee_code": "132",
+    "apogee_name": "GRANDE BRETAGNE"
+  },
+  "181": {
+    "moveon_id": 181,
+    "moveon_name": "Russie, Fédération De",
+    "apogee_code": "123",
+    "apogee_name": "RUSSIE"
+  },
+  "182": {
+    "moveon_id": 182,
+    "moveon_name": "Rwanda",
+    "apogee_code": "340",
+    "apogee_name": "RWANDA"
+  },
+  "206": {
+    "moveon_id": 206,
+    "moveon_name": "Saint-Kitts-et-Nevis",
+    "apogee_code": "442",
+    "apogee_name": "ST CHRISTOPHE NIEVES"
+  },
+  "190": {
+    "moveon_id": 190,
+    "moveon_name": "Saint-Marin",
+    "apogee_code": "128",
+    "apogee_name": "SAINT MARIN"
+  },
+  "207": {
+    "moveon_id": 207,
+    "moveon_name": "Saint-Vincent-et-les Grenadines",
+    "apogee_code": "440",
+    "apogee_name": "ILES SAINT VINCENT ET GRENADINES NORD"
+  },
+  "186": {
+    "moveon_id": 186,
+    "moveon_name": "Sainte-Lucie",
+    "apogee_code": "439",
+    "apogee_name": "SAINTE LUCIE"
+  },
+  "200": {
+    "moveon_id": 200,
+    "moveon_name": "Salomon, îles",
+    "apogee_code": "512",
+    "apogee_name": "SALOMON"
+  },
+  "189": {
+    "moveon_id": 189,
+    "moveon_name": "Samoa",
+    "apogee_code": "512",
+    "apogee_name": "SALOMON"
+  },
+  "191": {
+    "moveon_id": 191,
+    "moveon_name": "Sao Tomé-et-Principe",
+    "apogee_code": "394",
+    "apogee_name": "SAO TOME ET PRINCIPE"
+  },
+  "193": {
+    "moveon_id": 193,
+    "moveon_name": "Sénégal",
+    "apogee_code": "341",
+    "apogee_name": "SENEGAL"
+  },
+  "249": {
+    "moveon_id": 249,
+    "moveon_name": "Serbie",
+    "apogee_code": "121",
+    "apogee_name": "SERBIE"
+  },
+  "195": {
+    "moveon_id": 195,
+    "moveon_name": "Seychelles",
+    "apogee_code": "398",
+    "apogee_name": "SEYCHELLES"
+  },
+  "196": {
+    "moveon_id": 196,
+    "moveon_name": "Sierra Leone",
+    "apogee_code": "342",
+    "apogee_name": "SIERRA LEONE"
+  },
+  "197": {
+    "moveon_id": 197,
+    "moveon_name": "Singapour",
+    "apogee_code": "226",
+    "apogee_name": "SINGAPOUR"
+  },
+  "198": {
+    "moveon_id": 198,
+    "moveon_name": "Slovaquie",
+    "apogee_code": "117",
+    "apogee_name": "SLOVAQUIE"
+  },
+  "199": {
+    "moveon_id": 199,
+    "moveon_name": "Slovénie",
+    "apogee_code": "145",
+    "apogee_name": "SLOVENIE"
+  },
+  "201": {
+    "moveon_id": 201,
+    "moveon_name": "Somalie",
+    "apogee_code": "318",
+    "apogee_name": "SOMALIE"
+  },
+  "208": {
+    "moveon_id": 208,
+    "moveon_name": "Soudan",
+    "apogee_code": "343",
+    "apogee_name": "SOUDAN"
+  },
+  "461": {
+    "moveon_id": 461,
+    "moveon_name": "Soudan du sud",
+    "apogee_code": "990",
+    "apogee_name": "AUTRES PAYS"
+  },
+  "205": {
+    "moveon_id": 205,
+    "moveon_name": "Sri Lanka",
+    "apogee_code": "235",
+    "apogee_name": "SRI LANKA"
+  },
+  "212": {
+    "moveon_id": 212,
+    "moveon_name": "Suède",
+    "apogee_code": "104",
+    "apogee_name": "SUEDE"
+  },
+  "213": {
+    "moveon_id": 213,
+    "moveon_name": "Suisse",
+    "apogee_code": "140",
+    "apogee_name": "SUISSE"
+  },
+  "209": {
+    "moveon_id": 209,
+    "moveon_name": "Suriname",
+    "apogee_code": "437",
+    "apogee_name": "SURINAM"
+  },
+  "211": {
+    "moveon_id": 211,
+    "moveon_name": "Swaziland",
+    "apogee_code": "391",
+    "apogee_name": "SWAZILAND"
+  },
+  "214": {
+    "moveon_id": 214,
+    "moveon_name": "Syrienne, République arabe",
+    "apogee_code": "206",
+    "apogee_name": "SYRIE"
+  },
+  "216": {
+    "moveon_id": 216,
+    "moveon_name": "Tadjikistan",
+    "apogee_code": "259",
+    "apogee_name": "TADJIKISTAN"
+  },
+  "215": {
+    "moveon_id": 215,
+    "moveon_name": "Taïwan",
+    "apogee_code": "236",
+    "apogee_name": "TAIWAN"
+  },
+  "217": {
+    "moveon_id": 217,
+    "moveon_name": "Tanzanie, République-Unie de",
+    "apogee_code": "309",
+    "apogee_name": "TANZANIE"
+  },
+  "42": {
+    "moveon_id": 42,
+    "moveon_name": "Tchad",
+    "apogee_code": "344",
+    "apogee_name": "TCHAD"
+  },
+  "57": {
+    "moveon_id": 57,
+    "moveon_name": "Tchèque, République",
+    "apogee_code": "116",
+    "apogee_name": "REPUBLIQUE TCHEQUE"
+  },
+  "218": {
+    "moveon_id": 218,
+    "moveon_name": "Thaïlande",
+    "apogee_code": "219",
+    "apogee_name": "THAILANDE"
+  },
+  "219": {
+    "moveon_id": 219,
+    "moveon_name": "Timor-Leste",
+    "apogee_code": "262",
+    "apogee_name": "TIMOR ORIENTAL"
+  },
+  "220": {
+    "moveon_id": 220,
+    "moveon_name": "Togo",
+    "apogee_code": "345",
+    "apogee_name": "TOGO"
+  },
+  "222": {
+    "moveon_id": 222,
+    "moveon_name": "Tonga",
+    "apogee_code": "509",
+    "apogee_name": "TONGUA OU FRIENDLY"
+  },
+  "223": {
+    "moveon_id": 223,
+    "moveon_name": "Trinité-et-Tobago",
+    "apogee_code": "433",
+    "apogee_name": "TRINITE ET TOBAGO"
+  },
+  "224": {
+    "moveon_id": 224,
+    "moveon_name": "Tunisie",
+    "apogee_code": "351",
+    "apogee_name": "TUNISIE"
+  },
+  "226": {
+    "moveon_id": 226,
+    "moveon_name": "Turkménistan",
+    "apogee_code": "260",
+    "apogee_name": "TURKMENISTAN"
+  },
+  "225": {
+    "moveon_id": 225,
+    "moveon_name": "Turquie",
+    "apogee_code": "208",
+    "apogee_name": "TURQUIE"
+  },
+  "228": {
+    "moveon_id": 228,
+    "moveon_name": "Tuvalu",
+    "apogee_code": "511",
+    "apogee_name": "TUVALU"
+  },
+  "230": {
+    "moveon_id": 230,
+    "moveon_name": "Ukraine",
+    "apogee_code": "155",
+    "apogee_name": "UKRAINE"
+  },
+  "235": {
+    "moveon_id": 235,
+    "moveon_name": "Uruguay",
+    "apogee_code": "423",
+    "apogee_name": "URUGUAY"
+  },
+  "237": {
+    "moveon_id": 237,
+    "moveon_name": "Vanuatu",
+    "apogee_code": "514",
+    "apogee_name": "VANUATU"
+  },
+  "238": {
+    "moveon_id": 238,
+    "moveon_name": "Vatican",
+    "apogee_code": "129",
+    "apogee_name": "VATICAN"
+  },
+  "239": {
+    "moveon_id": 239,
+    "moveon_name": "Venezuela",
+    "apogee_code": "424",
+    "apogee_name": "VENEZUELA"
+  },
+  "240": {
+    "moveon_id": 240,
+    "moveon_name": "Viet Nam",
+    "apogee_code": "243",
+    "apogee_name": "VIETNAM"
+  },
+  "245": {
+    "moveon_id": 245,
+    "moveon_name": "Yémen",
+    "apogee_code": "251",
+    "apogee_name": "YEMEN"
+  },
+  "246": {
+    "moveon_id": 246,
+    "moveon_name": "Zambie",
+    "apogee_code": "346",
+    "apogee_name": "ZAMBIE"
+  },
+  "247": {
+    "moveon_id": 247,
+    "moveon_name": "Zimbabwe",
+    "apogee_code": "310",
+    "apogee_name": "ZIMBABWE"
+  }
+}
