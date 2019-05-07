@@ -5,6 +5,7 @@ namespace App\Command;
 use App\Apogee\OpiBuilder;
 use App\MoveOn\MoveOnWrapper;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
@@ -39,7 +40,10 @@ class MoveOnApogeeOpiCreateCommand extends Command
 
     protected function configure()
     {
-        $this->setDescription('Generate OPI from MoveON users');
+        $this
+            ->setDescription('Generate OPI from MoveON users')
+            ->addArgument("students-query", InputArgument::OPTIONAL, "JSON of the criteria to retrieve students")
+        ;
     }
 
     /**
@@ -51,7 +55,7 @@ class MoveOnApogeeOpiCreateCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $io = new SymfonyStyle($input, $output);
-        $data = $this->moveOn->retrieveStudents();
+        $data = $this->moveOn->retrieveStudents(json_decode($input->getArgument("students-query"),true));
 
         $transcoding = $this->transcodedFields;
         $extraValues = $this->opiExtraValues;

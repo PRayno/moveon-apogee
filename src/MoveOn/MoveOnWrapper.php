@@ -18,14 +18,15 @@ class MoveOnWrapper
     }
 
     /**
-     * @param null $arguments
+     * @param array $arguments
      * @return \SimpleXMLElement
      * @throws \Exception
      */
-    public function retrieveStudents($arguments=null)
+    public function retrieveStudents($arguments=[])
     {
-        //$data = $moveOnApi->findBy("stay",["status_fra"=>"Prévu","direction_fra"=>"Entrants"]);
+        if (empty($arguments))
+            $arguments = ["status_fra"=>"Prévu","direction_fra"=>"Entrants"];
 
-        return $this->moveOnApi->findBy("stay",["person_id"=>"21515"]);
+        return $this->moveOnApi->findBy("stay",$arguments);
     }
 }
