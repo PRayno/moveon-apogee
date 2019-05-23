@@ -10,6 +10,7 @@ parameters:
         keyFilePath: "%env(MOVEON_KEY_FILE)%"
         certificatePassword: "%env(MOVEON_CERTIFICATE_PASSWORD)%"
         opiFieldName: "%env(MOVEON_OPI_FIELD)%"
+        opiToImportFieldName: "%env(MOVEON_OPI_TO_IMPORT_FIELD)%"
         studentNumberField: "%env(MOVEON_STUDENT_NUMBER_FIELD)%"
 
     apogee:
@@ -18,6 +19,8 @@ parameters:
     transcoded_fields: "%env(json:file:MOVEON_TO_APOGEE_FIELDS_FILE)%"
     opi_extra_values: "%env(json:file:OPI_EXTRA_VALUES_FILE)%"
     countries: "%env(json:file:COUNTRIES_FILE)%"
+    transcoded_custom_fields: "%env(json:file:MOVEON_CUSTOM_VALUES_FILE)%"
+    custom_fields_to_transcode: "%env(csv:CUSTOMFIELDS_TO_TRANSCODE)%"
 
 services:
     # default configuration for services in *this* file

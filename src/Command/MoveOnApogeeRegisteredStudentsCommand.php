@@ -69,15 +69,10 @@ class MoveOnApogeeRegisteredStudentsCommand extends Command
         }
 
 
-
         $idField =  "person.id";
         $count=0;
-        if (!is_array($data->rows))
-            $students = array($data->rows);
-        else
-            $students = $data->rows;
 
-        foreach ($students as $student)
+        foreach ($data->rows as $student)
         {
             try {
                 $studentNumber = $this->opiBuilder->findStudentNumber($student->$opiFieldName->__toString());

@@ -19,7 +19,10 @@ class MoveOnApogeeOpiCreateCommand extends Command
     private $moveOn;
     private $opiExtraValues;
     private $transcodedFields;
+    private $transcodedCustomFieldsValues;
+    private $customFieldsToTranscode;
     private $opiFieldName;
+    private $opiToImportFieldName;
 
     /**
      * MoveOnApogeeOpiCreateCommand constructor.
@@ -33,7 +36,10 @@ class MoveOnApogeeOpiCreateCommand extends Command
         $this->moveOn = $moveOn;
         $this->opiExtraValues = $parameterBag->get("opi_extra_values");
         $this->transcodedFields = $parameterBag->get("transcoded_fields");
+        $this->transcodedCustomFieldsValues = $parameterBag->get("transcoded_custom_fields");
+        $this->customFieldsToTranscode = $parameterBag->get("custom_fields_to_transcode");
         $this->opiFieldName = $parameterBag->get("moveon")["opiFieldName"];
+        $this->opiToImportFieldName = $parameterBag->get("moveon")["opiToImportFieldName"];
         parent::__construct();
     }
 
@@ -65,8 +71,15 @@ class MoveOnApogeeOpiCreateCommand extends Command
             foreach ($data->rows as $stay)
             {
                 $stay = (array) $stay;
-                $person = $this->moveOn->moveOnApi->findBy("person",["id"=>$stay["stay.person_id"]]);
+                $columnsTemp = [];
+                foreach (array_keys($this->transcodedFields) as $field)
+                {
+                    if (substr($field,0,6)==="custom")
+                        $columnsTemp[] = $field;
+                }
 
+                $columns = array_merge($this->moveOn->moveOnApi->getColumns("person"),$columnsTemp);
+                $person = $this->moveOn->moveOnApi->findBy("person",["id"=>$stay["stay.person_id"]],["id"=>"asc"],100,1,$columns);
                 $opiBuilder = $this->opiBuilder;
                 $extraValues["individu|codOpiIntEpo"] = $opiBuilder->generateOpiNumber($stay["stay.person_id"]);
                 $array = array_merge($extraValues,$stay,(array) $person->rows[0]);
@@ -76,13 +89,24 @@ class MoveOnApogeeOpiCreateCommand extends Command
                     if (!isset($transcoding[$field]) && !isset($extraValues[$field]))
                         continue;
 
+                    if (in_array($field,$this->customFieldsToTranscode))
+                    {
+                        if (isset($this->transcodedCustomFieldsValues[$value]))
+                            $value = $this->transcodedCustomFieldsValues[$value];
+                    }
+
                     $transcodedField = (isset($transcoding[$field]) ? $transcoding[$field] : $field);
+
                     $opiBuilder->set($transcodedField,$value);
                 }
 
                 try {
                     $opiBuilder->publish();
                     $this->moveOn->moveOnApi->save("person",["id"=>$stay["stay.person_id"],$this->opiFieldName=>$extraValues["individu|codOpiIntEpo"]]);
+
+                    if (!empty($this->opiToImportFieldName))
+                    $this->moveOn->moveOnApi->save("stay",["id"=>$stay["stay.id"],$this->opiToImportFieldName=>0]);
+
                     $io->success("OPI publiée dans APOGEE (".$extraValues["individu|codOpiIntEpo"].")");
                 }
                 catch (\Exception $exception)

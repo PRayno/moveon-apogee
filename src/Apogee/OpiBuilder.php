@@ -48,8 +48,32 @@ class OpiBuilder
                 break;
 
             case "individu|donneesNaissance|codDepPayNai" :
+            case "adresseFixe|codPay" :
+                foreach ($this->countries as $country)
+                {
+                    if ($country["moveon_name"] === $value)
+                        return $country["apogee_code"];
+                }
+                break;
+
             case "individu|donneesNaissance|codPayNat" :
+            case "individu|dernierDiplObt|codDepPayDerDip":
+            case "individu|dernierEtbFrequente|codDepPayAntIaaOpi":
+            case "individu|situationAnnPre|codDepPayAnnPreOpi":
                 return $this->countries[$value]["apogee_code"];
+                break;
+
+            case "individu|etatCivil|codSexEtuOpi" :
+                if ($value === "Féminin")
+                    return "F";
+                else
+                    return "M";
+                break;
+
+            case "adresseFixe|libAde":
+                $postCodeCity = $this->opi->tempPostCode." ".$value;
+                unset($this->opi->tempPostCode);
+                return $postCodeCity;
                 break;
 
             default:

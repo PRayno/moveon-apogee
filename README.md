@@ -23,7 +23,7 @@ Le process est le suivant :
 
 ### Configuration préalable
 
-Afin de fonctionner cet outil a besoin de 3 fichiers JSON décrivant la configuration.
+Afin de fonctionner cet outil a besoin de 4 fichiers JSON décrivant la configuration de l'environnement.
 
 - Transcription des champs MoveON / Apogee : transcription des champs MoveON (liste des champs dans URL_ENTITIES) vers les champs APOGEE (chaque niveau est séparé par un |). Exemple :
 
@@ -87,6 +87,15 @@ Si cela ne correspond pas à la configuration de l'environnement MoveON / Apogee
 bin/console  bin/console moveon:country-referential https://MON-INSTALLATION-MOVEON-bo.moveonfr.com/reference-list/get-reference-list/list/countries  /chemin/du/fichier/en/sortie/correspondance.json
 ```
 
+- Une liste de "traduction" des champs custom. Lorsque l'on appelle un champs customfield qui correspond à une liste déroulante d'un formulaire MoveOn, on récupère un id de la table "ctf_listitem_cli" de la base de données.
+Ex :
+
+```json
+{
+    "1":"Pays groupe 1",
+    "2":"150"
+}
+```
 
 ## Installation
 
@@ -105,6 +114,7 @@ MOVEON_CERTIFICATE_FILE='/path/to/certificate/certificate.crt'      # Certificat
 MOVEON_KEY_FILE='/path/to/key/file/certificate.pem'                 # Clé publique
 MOVEON_CERTIFICATE_PASSWORD='Password'                              # Mot de passe pour décoder cette clé
 MOVEON_OPI_FIELD='external_id'                                      # Champ moveon (entité "person") dans lequel on va stocker le numéro OPI
+MOVEON_OPI_TO_IMPORT_FIELD='customfield000'                         # Champ qui détermine les étudiants à importer
 MOVEON_STUDENT_NUMBER_FIELD='matriculation_id'                      # Champ moveon (entité "person") dans lequel on va stocker le numéro de dossier (numéro étudiant)
 
 ### Apogee parameters
@@ -114,6 +124,8 @@ APOGEE_SERVICE_URL='http://APOGEE-WS-URL/services/'                 # URL des we
 MOVEON_TO_APOGEE_FIELDS_FILE='/path/to/file.json'                   # Fichier de transcodage des champs MoveON => APOGEE
 OPI_EXTRA_VALUES_FILE='/path/to/file.json'                          # Fichier de paramétrage des valeurs communes à tous les étudiants importés
 COUNTRIES_FILE='src/Resources/countries.json'                       # Fichier de transcodage des pays (valeur du fichier par défaut)
+MOVEON_CUSTOM_VALUES_FILE='/path/to/file.json'                      # Ficher de "traduction" des champs custom
+CUSTOMFIELDS_TO_TRANSCODE='customfield000,customfield001'           # Liste des customfields
 ```
 
 ## Utilisation
@@ -121,4 +133,4 @@ COUNTRIES_FILE='src/Resources/countries.json'                       # Fichier de
 Par défaut, il utilise les critères : "status_fra" : "Prévu" et "direction_fra" :"Entrants" pour chercher les étudiants à importer. 
 Il est possible de passer un argument en JSON pour retrouver les séjours à importer. Ex : `bin/console moveon:apogee:opi-create '{"person_id":"12345"}'` ne va importer que l'étudiant avec l'id 12345 dans la base.
 
-- La commande `bin/console moveon:apogee:registered-students` permete quant à elle d'ajouter dans MoveON le numéro de dossier des étudiants ayant une inscription administrative complète ; il se base sur les deux champs MOVEON_OPI_FIELD et MOVEON_STUDENT_NUMBER_FIELD définis dans le .env.local   
+- La commande `bin/console moveon:apogee:registered-students` permet quant à elle d'ajouter dans MoveON le numéro de dossier des étudiants ayant une inscription administrative complète ; il se base sur les deux champs MOVEON_OPI_FIELD et MOVEON_STUDENT_NUMBER_FIELD définis dans le .env.local   
