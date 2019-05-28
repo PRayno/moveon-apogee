@@ -78,7 +78,7 @@ class MoveOnApogeeOpiCreateCommand extends Command
                         $columnsTemp[] = $field;
                 }
 
-                $columns = array_merge($this->moveOn->moveOnApi->getColumns("person"),$columnsTemp);
+                $columns = array_merge($this->moveOn->moveOnApi->getEntity("person"),$columnsTemp);
                 $person = $this->moveOn->moveOnApi->findBy("person",["id"=>$stay["stay.person_id"]],["id"=>"asc"],100,1,$columns);
                 $opiBuilder = $this->opiBuilder;
                 $extraValues["individu|codOpiIntEpo"] = $opiBuilder->generateOpiNumber($stay["stay.person_id"]);

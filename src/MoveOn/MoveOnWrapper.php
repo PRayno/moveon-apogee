@@ -1,6 +1,4 @@
 <?php
-
-
 namespace App\MoveOn;
 
 
@@ -10,11 +8,13 @@ use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 class MoveOnWrapper
 {
     public $moveOnApi;
+    protected $importOpiField;
 
     public function __construct(ParameterBagInterface $parameterBag)
     {
         $moveonApiParameters = $parameterBag->get("moveon");
         $this->moveOnApi = new MoveOn($moveonApiParameters["service_url"],$moveonApiParameters["certificatePath"],$moveonApiParameters["keyFilePath"],$moveonApiParameters["certificatePassword"]);
+        $this->importOpiField = $moveonApiParameters["opiToImportFieldName"];
     }
 
     /**
@@ -25,7 +25,7 @@ class MoveOnWrapper
     public function retrieveStudents($arguments=[])
     {
         if (empty($arguments))
-            $arguments = ["status_fra"=>"Prévu","direction_fra"=>"Entrants"];
+            $arguments = [$this->importOpiField=>"1"];
 
         return $this->moveOnApi->findBy("stay",$arguments);
     }
