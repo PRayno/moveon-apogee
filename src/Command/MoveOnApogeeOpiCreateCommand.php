@@ -7,6 +7,7 @@ use App\MoveOn\MoveOnWrapper;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
@@ -49,6 +50,7 @@ class MoveOnApogeeOpiCreateCommand extends Command
         $this
             ->setDescription('Generate OPI from MoveON users')
             ->addArgument("students-query", InputArgument::OPTIONAL, "JSON of the criteria to retrieve students")
+            ->addOption("dump", "d",InputOption::VALUE_NONE, 'Dump the content before registration')
         ;
     }
 
@@ -98,6 +100,12 @@ class MoveOnApogeeOpiCreateCommand extends Command
                     $transcodedField = (isset($transcoding[$field]) ? $transcoding[$field] : $field);
 
                     $opiBuilder->set($transcodedField,$value);
+                }
+
+                if ($input->getOption("dump")===true)
+                {
+                    $io->text(json_encode($opiBuilder->publish(true)));
+                    return true;
                 }
 
                 try {

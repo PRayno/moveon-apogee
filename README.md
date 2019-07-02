@@ -129,8 +129,14 @@ CUSTOMFIELDS_TO_TRANSCODE='customfield000,customfield001'           # Liste des 
 ```
 
 ## Utilisation
-- La commande `bin/console moveon:apogee:opi-create` permet de récupérer les étudiants de la base MoveON et de créer leur OPI dans APOGEE.
+
+### Créer une OPI
+La commande `bin/console moveon:apogee:opi-create` permet de récupérer les étudiants de la base MoveON et de créer leur OPI dans APOGEE.
 Par défaut, il utilise le champ défini dans le paramètre "MOVEON_OPI_TO_IMPORT_FIELD" avec la valeur "1" pour rechercher les étudiants à importer. 
+
 Il est possible de passer un argument en JSON pour retrouver les séjours à importer. Ex : `bin/console moveon:apogee:opi-create '{"person_id":"12345"}'` ne va importer que l'étudiant avec l'id 12345 dans la base.
 
-- La commande `bin/console moveon:apogee:registered-students` permet quant à elle d'ajouter dans MoveON le numéro de dossier des étudiants ayant une inscription administrative complète ; il se base sur les deux champs MOVEON_OPI_FIELD et MOVEON_STUDENT_NUMBER_FIELD définis dans le .env.local   
+Pour tester, vous pouvez ajouter l'option `--dump` à cette commande pour afficher le contenu de l'OPI qui va être envoyé à APOGEE.
+
+### Mettre à jour les numéros de dossier étudiant
+La commande `bin/console moveon:apogee:registered-students` permet quant à elle d'ajouter dans MoveON le numéro de dossier des étudiants ayant une inscription administrative complète ; il se base sur les deux champs MOVEON_OPI_FIELD et MOVEON_STUDENT_NUMBER_FIELD définis dans le .env.local   

@@ -85,9 +85,11 @@ class OpiBuilder
      * @return mixed
      * @throws \Exception
      */
-    public function publish()
+    public function publish(bool $dump=false)
     {
         $opi = ["_donneesOpi" => $this->explodeTree(get_object_vars($this->opi),"|")];
+        if ($dump === true)
+            return $opi;
 
         try {
             $apogee = new \SoapClient($this->urlApogee."OpiMetier?wsdl");
