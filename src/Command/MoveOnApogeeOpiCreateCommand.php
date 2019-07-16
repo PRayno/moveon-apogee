@@ -81,7 +81,7 @@ class MoveOnApogeeOpiCreateCommand extends Command
                 }
 
                 $columns = array_merge($this->moveOn->moveOnApi->getEntity("person"),$columnsTemp);
-                $person = $this->moveOn->moveOnApi->findBy("person",["id"=>$stay["stay.person_id"]],["id"=>"asc"],100,1,$columns);
+                $person = $this->moveOn->moveOnApi->findBy("person",["id"=>$stay["stay.person_id"]],["id"=>"asc"],10000,1,$columns);
                 $opiBuilder = $this->opiBuilder;
                 $extraValues["individu|codOpiIntEpo"] = $opiBuilder->generateOpiNumber($stay["stay.person_id"]);
                 $array = array_merge($extraValues,$stay,(array) $person->rows[0]);
@@ -98,14 +98,19 @@ class MoveOnApogeeOpiCreateCommand extends Command
                     }
 
                     $transcodedField = (isset($transcoding[$field]) ? $transcoding[$field] : $field);
-
-                    $opiBuilder->set($transcodedField,$value);
+                    try {
+                        $opiBuilder->set($transcodedField,$value);
+                    }
+                    catch (\Exception $exception)
+                    {
+                        $io->error("Stay ".$stay["stay.id"]." : ".$exception->getMessage());
+                    }
                 }
 
                 if ($input->getOption("dump")===true)
                 {
                     $io->text(json_encode($opiBuilder->publish(true)));
-                    return true;
+                    continue;
                 }
 
                 try {

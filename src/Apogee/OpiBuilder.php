@@ -37,6 +37,7 @@ class OpiBuilder
      * @param $field
      * @param $value
      * @return string
+     * @throws \Exception
      */
     protected function transcode($field,$value)
     {
@@ -60,7 +61,10 @@ class OpiBuilder
             case "individu|dernierDiplObt|codDepPayDerDip":
             case "individu|dernierEtbFrequente|codDepPayAntIaaOpi":
             case "individu|situationAnnPre|codDepPayAnnPreOpi":
-                return $this->countries[$value]["apogee_code"];
+                if (!isset($this->countries[$value]))
+                    throw new \Exception("Le pays avec l'id $value n'existe pas dans la table de correspondance");
+                else
+                    return $this->countries[$value]["apogee_code"];
                 break;
 
             case "individu|etatCivil|codSexEtuOpi" :
