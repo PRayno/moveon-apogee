@@ -97,7 +97,7 @@ class OpiBuilder
 
         try {
             $apogee = new \SoapClient($this->urlApogee."OpiMetier?wsdl");
-            return $apogee->__soapCall('mettreajourDonneesOpi_v7',[$opi]);
+            return $apogee->__soapCall('mettreajourDonneesOpi_v9',[$opi]);
         }
         catch (\SoapFault $fault)
         {
