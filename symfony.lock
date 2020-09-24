@@ -14,6 +14,9 @@
     "nikic/php-parser": {
         "version": "v4.2.1"
     },
+    "php": {
+        "version": "7.2"
+    },
     "prayno/moveon": {
         "version": "v1.0"
     },
@@ -130,6 +133,9 @@
     "symfony/polyfill-intl-idn": {
         "version": "v1.11.0"
     },
+    "symfony/polyfill-intl-normalizer": {
+        "version": "v1.18.1"
+    },
     "symfony/polyfill-mbstring": {
         "version": "v1.10.0"
     },
@@ -138,6 +144,9 @@
     },
     "symfony/polyfill-php73": {
         "version": "v1.11.0"
+    },
+    "symfony/polyfill-php80": {
+        "version": "v1.18.1"
     },
     "symfony/property-access": {
         "version": "v4.2.3"
